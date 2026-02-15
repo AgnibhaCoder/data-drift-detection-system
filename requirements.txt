@@ -1,0 +1,18 @@
+#for data processing
+pandas==2.3.3
+numpy==2.4.2
+scipy==1.17.0
+
+#for configuration and orchestration
+pyyaml==6.0.3
+loguru==0.7.3
+python-dotenv==1.2.1
+
+#for monitoring and dashboard
+streamlit==1.54.0
+plotly==5.24.1
+evidently==0.7.20
+
+#alerting and integrations
+requests==2.32.5
+

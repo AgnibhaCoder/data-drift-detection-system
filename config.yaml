@@ -1,0 +1,20 @@
+thresholds:
+  ks_test: 0.05
+  psi: 0.2
+
+feature_to_monitor:
+  - age
+  - euribor3m
+  - job
+  - education
+  - contact
+  - campaign
+
+email_alerts: true
+slack_webhook: "https://hooks.slack.com/services/T000/B000/XXXX"
+
+paths:
+  reference_data: "data/bank-direct-marketing-campaigns.csv"
+  production_dir: "data/production_logs/"
+  report_output: "reports/"
+  
